@@ -24,12 +24,12 @@ def game_():
     game.play()
 
     color_code={
-        1: '6600CC',
-        2: 'FF0000',
-        3: 'FFFF00',
-        4: '006600',
-        5: 'FFCCFF',
-        6: '0000FF',
+        1: 'yellow',
+        2: 'magenta',
+        3: 'red',
+        4: 'darkgreen',
+        5: 'purpleheart',
+        6: 'blue',
 
     }
     code = (game.codemaker.code)
