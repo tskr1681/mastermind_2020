@@ -27,8 +27,8 @@ def game_():
         1: 'yellow',
         2: 'magenta',
         3: 'red',
-        4: 'darkgreen',
-        5: 'purpleheart',
+        4: 'green',
+        5: 'purple',
         6: 'blue',
 
     }
