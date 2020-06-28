@@ -104,3 +104,17 @@ Both the agents are aware of this elimination process, and it becomes common kno
 
 Using this logic, a game of Mastermind becomes a series of restrictions on the Kripke model until Player 2 has access to only one world and thereby knows the secret code. However, this restriction process is lmiited to only 5 moves. If Player 2 still is unable to make the correct guess, Player 1 wins.
 
+Agent Knowledge
+
+We monitor the common knowledge, and individual knowledge accummulated by both the agents throughout the game.
+
+A knowledge proposition known with surety is expressed as <position>:<color>.
+A negation known with surety is expressed as ~(<position>:<color>).
+An unsure knowledge proposition which may or may not hold is expressed as *(<position>:<color>).
+Common Knowledge is collectively available to both agents, however agent1 knowledge and agent2 knowledge is only available to the respective agents indivdually. We have agent1 as the code-maker, and agent2 as the code-breaker.
+
+Agent1 individual knowledge is only updated once, when he generates the code. For example, if the following code is generated :
+
+
+
+
